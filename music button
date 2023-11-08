@@ -1,0 +1,13 @@
+local basalt = require("basalt")
+
+local main = basalt.createFrame()
+local button = main 
+        :addButton()
+        :setPosition(4, 4)
+        :setText("Happy Together")
+        :onClick(
+            function()
+                shell.run("speaker play https://uca4ad0c7cc02d33dd4ad878be1c.dl.dropboxusercontent.com/cd/0/get/CHIXqsKUyrqyPMdGEy77iJS_8p65GmBOPwxwvy75bQRmU1Ze4-IsEqWyOUfUBmVmIs8S8CXQ9HE-Jh8fHO9veHpPY6nc6eWOGa2XClT2HzSxvaqUoImChXXUY318gHzVacnl8obpUeF89Kj1NCaXTtrhSqvgI3F7ro5NR9O-nRYlrHcL9iYha6fHnyMewys3J4w/file#")
+            end)
+
+basalt.autoUpdate()
