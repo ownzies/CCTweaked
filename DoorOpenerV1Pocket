@@ -1,0 +1,6 @@
+local modem = peripheral.wrap( "back" )
+modem.transmit(42069,42069, "cheese")
+print("transmitting")
+sleep(2)
+print("transmitted")
+end
