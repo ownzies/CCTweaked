@@ -1,0 +1,31 @@
+local basalt = require("basalt")
+
+local main = basalt.createFrame()
+local button = main 
+        :addButton()
+        :setPosition(2, 2)
+        :setText("Happy Together")
+        :onClick(
+            function()
+                shell.run("speaker play https://github.com/ownzies/CCTweaked/raw/main/happytogether%20(2).wav")
+            end)
+
+local button1 = main 
+        :addButton()
+        :setPosition(2, 6)
+        :setText("Dusty Locane")
+        :onClick(
+            function()
+                shell.run("speaker play https://github.com/ownzies/CCTweaked/raw/main/dustylocane.wav")
+            end)
+
+local button2 = main 
+        :addButton()
+        :setPosition(2, 10)
+        :setText("Song Of Storms")
+        :onClick(
+            function()
+                shell.run("speaker play https://github.com/ownzies/CCTweaked/raw/main/songofstorms.wav")
+            end)
+
+basalt.autoUpdate()
