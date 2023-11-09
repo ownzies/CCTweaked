@@ -8,7 +8,7 @@ while true do
 	local event, modemSide, senderChannel, replyChannel, message, senderDistance = os.pullEvent("modem_message")
 	print("msg from"..senderChannel)
 	print("sender is: "..(senderDistance).." blocks away from me.")
-	if message == "cheese" then
+	if message == "verysecurepassword1234" then
 		redstone.setAnalogOutput("left", 0)
 		os.sleep(2)
 		redstone.setAnalogOutput("left", 15)
