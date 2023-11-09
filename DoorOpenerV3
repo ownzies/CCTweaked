@@ -18,7 +18,9 @@ while true do
 		os.sleep(1)
 		redstone.setAnalogOutput("right", 15)
 	elseif  message ~= "notsecurepassword1234" and message ~= "verysecurepassword1234" then
-		print("skitz cunt trynna get into me system")
+		print("HECKNNN")
+		print("HECKN SKITZ CUNT TRYNA GET INTO ME SYSTEM")
+		print("swiper no swiping")
 	end
 print("pog?")
 end
