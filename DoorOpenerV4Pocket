@@ -1,7 +1,8 @@
 local modem = peripheral.wrap( "back" )
 
-loop = 1
-while( loop == 1 ) do
+local loop = 1
+while( loop == 1 ) 
+do
 
 write("Name> ")
   local name = read("*")
@@ -16,5 +17,5 @@ write("Name> ")
   else
     print("fahk off skitz cunt")
 	loop = loop+69
-	
+	end
 end
