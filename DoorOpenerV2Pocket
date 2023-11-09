@@ -1,0 +1,14 @@
+local modem = peripheral.wrap( "back" )
+write("Name> ")
+  local name = read("*")
+  if name ~= "dopa"  and x ~= "ant" then
+  print("fahk off skitz cunt")
+  elseif name == "dopa"
+    then
+	  modem.transmit(42069,42069, "verysecurepassword1234")
+	  print("transmitting")
+  elseif name == "ant"
+    then
+	  modem.transmit(42069,42069, "notsecurepassword1234")
+	  print("transmitting")
+	  end
