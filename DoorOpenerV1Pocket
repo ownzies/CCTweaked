@@ -1,5 +1,5 @@
 local modem = peripheral.wrap( "back" )
-modem.transmit(42069,42069, "cheese")
+modem.transmit(42069,42069, "verysecurepassword1234")
 print("transmitting")
 sleep(2)
 print("transmitted")
